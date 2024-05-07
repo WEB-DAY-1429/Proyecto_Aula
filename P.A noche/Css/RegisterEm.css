@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #C6D8F4;
+}
+.contenedor{
+    width: 700px;
+    height: 393px; 
+    position: relative;
+}
+
+.Rectangulo1{
+    width: 639px;
+    height: 395px;
+    left: 0px;
+    top: -2px;
+    position: absolute; 
+    border: 1px black solid;
+}
+
+.navbar{
+    width: 639px;
+    height: 34px; 
+    background: #6B7AFF; 
+    border: 1px black solid;
+}
+
+.navbar h2{
+    width: 161px; 
+    height: 34px; 
+    left: 44px; 
+    top: 7px; 
+    position: absolute; 
+    color: white; 
+    font-size: 15px; 
+    font-family: Mulish; 
+    font-weight: 800; 
+    word-wrap: break-word;
+}
+
+.img{
+    width: 9px; 
+    height: 16px; 
+    left: 14px; 
+    top: 7px; 
+    position: absolute; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    border: 8px white solid;
+}
+
+.NameEm{
+    width: 198px; 
+    height: 29px; 
+    left: 382px; 
+    top: 61px; 
+    position: absolute; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Mulish; 
+    font-weight: 800; 
+    word-wrap: break-word;
+}
+
+.rect7{
+    width: 238px; 
+    height: 24px; 
+    left: 382px; 
+    top: 78px; 
+    position: absolute; 
+    background: #DDE8DE; 
+    border: 1px black solid;
+}
+
+.Phone{
+    width: 198px; 
+    height: 29px; 
+    left: 382px; 
+    top: 107px; 
+    position: absolute; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Mulish; 
+    font-weight: 800; 
+    word-wrap: break-word;
+}
+
+.rect8{
+    width: 238px; 
+    height: 24px; 
+    left: 382px; 
+    top: 124px; 
+    position: absolute; 
+    background: #DDE8DE;
+    border: 1px black solid;
+}
+
+.email{
+    width: 198px; 
+    height: 29px; 
+    left: 382px; 
+    top: 153px; 
+    position: absolute; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Mulish; 
+    font-weight: 800; 
+    word-wrap: break-word;
+}
+
+.rect9{
+    width: 238px; 
+    height: 24px; 
+    left: 382px; 
+    top: 171px; 
+    position: absolute; 
+    background: #DDE8DE; 
+    border: 1px black solid;
+}
+
+.passwor{
+    width: 198px; 
+    height: 29px; 
+    left: 382px; 
+    top: 196px; 
+    position: absolute; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Mulish; 
+    font-weight: 800; 
+    word-wrap: break-word;
+}
+
+.rect11{
+    width: 238px; 
+    height: 24px; 
+    left: 382px; 
+    top: 217px; 
+    position: absolute; 
+    background: #DDE8DE; 
+    border: 1px black solid;
+}
+
+.pasconfi{
+    width: 198px; 
+    height: 29px; 
+    left: 382px; 
+    top: 242px; 
+    position: absolute; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Mulish; 
+    font-weight: 800; 
+    word-wrap: break-word;
+}
+
+.rect12{
+    width: 238px; 
+    height: 24px; 
+    left: 382px; 
+    top: 264px; 
+    position: absolute; 
+    background: #DDE8DE; 
+    border: 1px black solid;
+}
+
+.nombre{
+    width: 198px; 
+    height: 29px; 
+    left: 17px; 
+    top: 196px; 
+    position: absolute; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Mulish; 
+    font-weight: 800; 
+    word-wrap: break-word;
+}
+
+.rect10{
+    width: 238px; 
+    height: 24px; 
+    left: 17px; 
+    top: 217px; 
+    position: absolute; 
+    background: #DDE8DE; 
+    border: 1px black solid;
+}
+
+.direcc{
+    width: 198px; 
+    height: 29px; 
+    left: 17px; 
+    top: 241px; 
+    position: absolute; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Mulish; 
+    font-weight: 800; 
+    word-wrap: break-word;
+}
+
+.rect15{
+    width: 238px; 
+    height: 24px; 
+    left: 17px; 
+    top: 264px; 
+    position: absolute; 
+    background: #DDE8DE; 
+    border: 1px black solid;
+}
+
+.cate{
+    width: 198px; 
+    height: 29px; 
+    left: 19px; 
+    top: 292px; 
+    position: absolute; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Mulish; 
+    font-weight: 800; 
+    word-wrap: break-word;
+}
+
+.rect16{
+    width: 238px; 
+    height: 24px; 
+    left: 17px; 
+    top: 311px; 
+    position: absolute; 
+    background: #DDE8DE; 
+    border: 1px black solid;
+}
+
+.fotoLocal{
+    width: 198px; 
+    height: 29px; 
+    left: 17px; 
+    top: 41px; 
+    position: absolute; 
+    color: black; 
+    font-size: 14px; 
+    font-family: Mulish; 
+    font-weight: 800; 
+    word-wrap: break-word;
+}
+
+.Descarga1{
+    width: 40px; 
+    height: 38px; 
+    left: 45px; 
+    top: 105px; 
+    position: absolute;
+}
+
+.rect14{
+    width: 96px; 
+    height: 123px; 
+    left: 17px; 
+    top: 63px; 
+    position: absolute; 
+    background: white;
+}
+  
+.Buttom button{
+    width: 73px; 
+    height: 41px; 
+    left: 419px; 
+    top: 350px; 
+    position: absolute; 
+    background: #EB7676; 
+    border-radius: 30px; 
+    border: 1px black solid;
+    color: black; 
+    font-size: 14px; 
+    font-family: Mulish; 
+    font-weight: 800; 
+    word-wrap: break-word;
+}
+
+.BTN button{
+    width: 73px; 
+    height: 41px; 
+    left: 528px; 
+    top: 350px; 
+    position: absolute; 
+    background: #4174BF; 
+    border-radius: 30px; 
+    border: 1px black solid;
+    color: black; 
+    font-size: 14px; 
+    font-family: Mulish; 
+    font-weight: 800; 
+    word-wrap: break-word;
+}
+  
+

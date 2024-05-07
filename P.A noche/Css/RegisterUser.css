@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #C6D8F4;
+    font-size: 14px;
+}
+
+.container{
+    width: 616px;
+    height: 393px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    width: 639px;
+    height: 34px;
+    background: rgba(107,122,255,1);
+    opacity: 1;
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    border: 1px solid rgba(0,0,0,1);
+    overflow: hidden;
+}
+
+.navbar h1{
+    width: 161px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 7px;
+    left: 44px;
+    font-family: Mulish;
+    font-weight: Bold;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+}
+
+
+.form-registro{
+    width: 616px;
+    height: 393px;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.nombre {
+    width: 198px;
+    height: 29px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 59px;
+    left: 26px;
+    font-family: Mulish;
+    font-weight: Bold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .phone {
+    width: 198px;
+    height: 29px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 111px;
+    left: 26px;
+    font-family: Mulish;
+    font-weight: Bold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .email {
+    width: 198px;
+    height: 29px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 162px;
+    left: 26px;
+    font-family: Mulish;
+    font-weight: Bold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .username {
+    width: 198px;
+    height: 29px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 213px;
+    left: 26px;
+    font-family: Mulish;
+    font-weight: Bold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .password {
+    width: 198px;
+    height: 29px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 264px;
+    left: 26px;
+    font-family: Mulish;
+    font-weight: Bold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+  .passconfi {
+    width: 198px;
+    height: 29px;
+    color: rgba(0,0,0,1);
+    position: absolute;
+    top: 315px;
+    left: 26px;
+    font-family: Mulish;
+    font-weight: Bold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+  }
+
+  .input {
+    width: 238px;
+    height: 24px;
+    background: rgba(221,232,222,1);
+    opacity: 1;
+    position: absolute;
+    top: 78px;
+    left: 26px;
+    border: 1px solid rgba(0,0,0,1);
+    overflow: hidden;
+  }
+
+.input1 {
+  width: 238px;
+  height: 24px;
+  background: rgba(221,232,222,1);
+  opacity: 1;
+  position: absolute;
+  top: 133px;
+  left: 26px;
+  border: 1px solid rgba(0,0,0,1);
+  overflow: hidden;
+}
+  .input2 {
+    width: 238px;
+    height: 24px;
+    background: rgba(221,231,222,1);
+    opacity: 1;
+    position: absolute;
+    top: 180px;
+    left: 26px;
+    border: 1px solid rgba(0,0,0,1);
+    overflow: hidden;
+  }
+  .input3 {
+    width: 238px;
+    height: 24px;
+    background: rgba(221,231,222,1);
+    opacity: 1;
+    position: absolute;
+    top: 231px;
+    left: 26px;
+    border: 1px solid rgba(0,0,0,1);
+    overflow: hidden;
+  }
+  .input4 {
+    width: 238px;
+    height: 24px;
+    background: rgba(221,231,222,1);
+    opacity: 1;
+    position: absolute;
+    top: 282px;
+    left: 26px;
+    border: 1px solid rgba(0,0,0,1);
+    overflow: hidden;
+  }
+  .input5 {
+    width: 238px;
+    height: 24px;
+    background: rgba(221,231,222,1);
+    opacity: 1;
+    position: absolute;
+    top: 332px;
+    left: 26px;
+    border: 1px solid rgba(0,0,0,1);
+    overflow: hidden;
+  }
+
+.Img{
+    width: 386px;
+  height: 412px;  
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  left: 272px;
+  overflow: hidden;
+}
+
+.Buttom button{
+  width: 73px;
+  height: 41px;
+  background: rgba(234,118,118,1);
+  opacity: 1;
+  position: absolute;
+  top: 376px;
+  left: 419px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: mulish;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Buttom a:hover {
+    color: #fff;
+}
+
+.Buttom button:hover {
+    background-color: #fff;
+}
+
+.BTN button{
+    width: 73px;
+  height: 41px;
+  background: rgba(65,115,191,1);
+  opacity: 1;
+  position: absolute;
+  top: 376px;
+  left: 528px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+  font-size: 14px;
+  font-family: mulish;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.BTN a:hover {
+    color: #fff;
+}
+
+.BTN button:hover {
+    background-color: #fff;
+}
