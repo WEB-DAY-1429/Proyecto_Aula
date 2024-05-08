@@ -1,0 +1,120 @@
+body{
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #C6D8F4;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: grid; 
+  grid-template-columns: 2.4fr 2.4fr; 
+  grid-template-rows: 0.2fr 1.8fr 0.3fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "nav nav"
+    "form img"
+    ". botones"; 
+}
+
+.img { grid-area: img; }
+.registro-user { grid-area: form; }
+.nav { grid-area: nav; }
+.botones { grid-area: botones; }
+
+
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+.botones{
+  display: flex;
+  /* margin: 0 auto; */
+  width: 90%;
+  justify-content: space-around;
+}
+
+.botones .Buttom button{
+box-sizing: border-box;
+width: 73px;
+height: 41px;
+left: 419px;
+top: 376px;
+background: #EB7676;
+border: 1px solid #000000;
+border-radius: 30px;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+color: #000000;
+cursor: pointer;
+}
+
+.botones .BTN button{
+  box-sizing: border-box;
+  width: 73px;
+  height: 41px;
+  left: 419px;
+  top: 376px;
+  background: #4174BF;
+  border: 1px solid #000000;
+  border-radius: 30px;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+color: #000000;
+cursor: pointer;
+ }
+
+
+.registro-user{
+  align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.registro-user .dato-user div{
+
+  display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+   
+}
+
+.registro-user .dato-user div input{
+  width: 280px;
+  margin-top: 9px;
+  height: 25px;
+  border: 1px solid #000;
+  color: #DDE8DE;
+}
+
+
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  background: #6B7AFF;
+  border: 1px solid #000;
+}
+
+.navbar_img{
+  margin-right: 10px;
+}
+
+.navbar_title h1{
+  margin: 0;
+  color: white;
+}

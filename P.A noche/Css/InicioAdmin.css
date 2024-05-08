@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #C6D8F4;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    background: #6B7AFF;
+    border: 1px solid #000;
+}
+
+.navbar h1{
+    margin: 0;
+    color: white;
+}
+
+.controlAdmin{
+    align-items: center;
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      
+  }
+  
+  .controlAdmin .datos div{
+    margin-top: 10px;
+    width: 201px;
+    height: 28px;
+    left: 26px;
+    top: 78px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;   
+}
+
+img{
+width: 321px;
+height: 357px;
+left: 305px;
+top: 23px;
+}
+
+.botones{
+    display: flex;
+}
+
+.bt1{
+width: 100px;
+height: 80px;
+left: 35px;
+top: 98px;
+background: rgba(107, 122, 255, 0.6);
+}
+
+.bt1 a img{
+width: 50px;
+height: 39px;
+left: 61px;
+top: 111px;
+}
+
+.bt2{
+    width: 100px;
+    height: 80px;
+    left: 35px;
+    top: 98px;
+    background: rgba(0, 25, 248, 0.6);
+    }
+    
+    .bt2 a img{
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 39px;
+    left: 61px;
+    top: 111px;
+    }

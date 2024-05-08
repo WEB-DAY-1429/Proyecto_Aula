@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #C6D8F4;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: grid; 
+    grid-template-columns: 2.4fr 2.4fr; 
+    grid-template-rows: 0.2fr 1.8fr 0.3fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "nav nav"
+      "form img"
+      ".botones"; 
+  }
+  
+  .img { grid-area: img; }
+  .registro-user { grid-area: form; }
+  .nav { grid-area: nav; }
+  .botones { grid-area: botones; }
+
+  .navbar{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    background: #6B7AFF;
+    border: 1px solid #000;
+  }
+  
+  .navbar_img{
+    margin-right: 10px;
+  }
+  
+  .navbar_title h1{
+    margin: 0;
+    color: white;
+  }
+
+.img{
+width: 181px;
+height: 146px;
+left: -14px;
+top: 273px;
+}
+
+.registro-admin{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.registro-admin .dato-admin div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+width: 193px;
+height: 27px;
+left: 17px;
+top: 51px;
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 18px;
+color: #000000;
+}
+
+.registro-admin .dato-admin div input{
+box-sizing: border-box;
+width: 233px;
+height: 22px;
+left: 17px;
+top: 67px;
+background: #DDE8DE;
+border: 1px solid #000000;
+}
+
+.botones{
+    display: flex;
+    /* margin: 0 auto; */
+    width: 90%;
+    justify-content: space-evenly;
+  }
+  
+  .botones .Buttom button{
+box-sizing: border-box;
+width: 71px;
+height: 39px;
+left: 405px;
+top: 356px;
+background: #EB7676;
+border: 1px solid #000000;
+border-radius: 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  cursor: pointer;
+  }
+  
+  .botones .BTN button{
+    box-sizing: border-box;
+    width: 71px;
+height: 39px;
+left: 405px;
+top: 356px;
+    background: #4174BF;
+    border: 1px solid #000000;
+    border-radius: 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  cursor: pointer;
+   }

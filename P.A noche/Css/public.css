@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #C6D8F4;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    background: #6B7AFF;
+    border: 1px solid #000;
+  }
+  
+  .navbar_img{
+    margin-right: 10px;
+  }
+  
+  .navbar_title h1{
+    margin: 0;
+    color: white;
+  }
+
+.conten-calendarDay{
+    display: flex;
+}
+  .registro-horario{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+.registro-horario .dato-calendar div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.registro-horario .dato-calendar div input{
+width: 200px;
+height: 15px;
+left: 450px;
+top: 100px;
+background: #6B7AFF;
+border-radius: 50px;
+}
+
+.calendar iframe{
+box-sizing: border-box;
+width: 450px;
+height: 350px;
+right: 50px;
+top: 54px;
+border: 2px solid #000000;
+backdrop-filter: blur(2px);
+}
+
+.boton-empleado {
+    display: flex;
+  /* margin: 0 auto; */
+  width: 90%;
+  justify-content: space-evenly;
+}
+
+.boton-empleado .Buttom1 button{
+    width: 178.60px; 
+    height: 19.94px; 
+    left: 21.31px; 
+    top: 254.29px;
+    background: #6B7AFF; 
+    border-radius: 50px;
+} 
+
+.boton-empleado .Btn1 button{
+    width: 178.60px; 
+    height: 19.94px; 
+    left: 21.31px; 
+    top: 254.29px;
+    background: #6B7AFF; 
+    border-radius: 50px;
+}
+
+.boton-empleado .Btn2 button{
+    width: 178.60px; 
+    height: 19.94px; 
+    left: 21.31px; 
+    top: 254.29px;
+    background: #6B7AFF; 
+    border-radius: 50px;
+}
+
+.description{
+    width: 104px; 
+    height: 28px; 
+    left: 18px; 
+    top: 274px; 
+    font-weight: bold;
+}
+
+.aviso{
+box-sizing: border-box;
+width: 599px;
+height: 90px;
+left: 50px;
+top: 295px;
+border: 1px solid #000000;
+}
+
+.botones{
+    display: flex;
+  /* margin: 0 auto; */
+  width: 90%;
+  justify-content: space-around;
+}
+
+.botones .Buttom button{
+    box-sizing: border-box;
+    width: 111px; 
+    height: 19px; 
+    left: 349px; 
+    top: 358px;
+     background: #EB7676; 
+    border-radius: 50px;
+    font-size: 14px;
+    font-family: mulish;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Buttom a:hover {
+    color: #fff;
+}
+
+.Buttom button:hover {
+    background-color: #fff;
+}
+
+.BTN button{
+    width: 111.62px; 
+    height: 19.94px; 
+    left: 496.22px; 
+    top: 358px; 
+    background: #6B7AFF; 
+    border-radius: 50px;
+    font-size: 14px;
+    font-family: mulish;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.BTN a:hover {
+    color: #fff;
+}
+
+.BTN button:hover {
+    background-color: #fff;
+}

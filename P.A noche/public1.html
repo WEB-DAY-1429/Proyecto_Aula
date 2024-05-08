@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horarios Terapeutas</title>
+    <link rel="stylesheet" href="Css/public.css">
+    <link rel="icon" href="Img/1 1.png" type="image/x-icon" />
+</head>
+
+<body>
+    <form action="horario">
+        <div class="contenedor">
+            <div class="nav">
+                <nav class="navbar">
+                    <div class="navbar_img">
+                        <a href="Index.html" onclick="history.back();">
+                            <img src="Img/Vector 1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="navbar_title">
+                        <h1>Publicar Horario</h1>
+                    </div>
+                </nav>
+            </div>
+            <div class="conten-calendarDay">
+                <div class="registro-horario">
+                    <div class="dato-calendar">
+                        <div class="day">
+                            <label for="Name">DIA: </label>
+                            <input type="text" class="Name" name="name">
+                        </div>
+                        <div class="month">
+                            <label for="Phone">MES: </label>
+                            <input type="text" class="phone" name="phone">
+                        </div>
+                        <div class="hours">
+                            <label for="Name">HORA: </label>
+                            <input type="text" class="email" name="email">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="calendar">
+                    <iframe src="https://calendar.google.com/calendar/embed?src=885319e1b50eb5070d65a284916763b5fa720229e05ecba457a04d48fd094efe%40group.calendar.google.com&ctz=America%2FBogota" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+            
+            <div class="description">
+                <label for="description">Description: </label>
+            </div>
+
+            <div class="aviso">
+                <p>¡Tenga en cuenta que para poder cancelar o reprogramar su cita debe comunicarse 2 horas antes!</p>
+            </div>
+
+           <div class="boton-empleado">
+            <div class="Buttom1">
+                <button type="button" class="btninfo">Terapeutas 1</button>
+            </div>
+        
+            <div class="Btn1">
+                <button type="button" class="outline-info">Terapeutas 2</button>
+            </div>
+        
+            <div class="Btn2">
+                <button type="button" class="btnoutline-info">Terapeutas 3</button>
+            </div>
+           </div>
+
+           <div class="botones">
+            <div class="Buttom">
+                <button class="btnCancelar" type="submit">Cancelar</button>
+            </div>
+    
+            <div class="BTN">
+                <button class="btnRegister" type="submit">Registrar</button>
+            </div>
+        </div>
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #C6D8F4;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formEncargado-container{
+    display: contents;
+    max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    background: #6B7AFF;
+    border: 1px solid #000;
+  }
+  
+  .navbar_img{
+    margin-right: 10px;
+  }
+  
+  .navbar_title h1{
+    margin: 0;
+    color: white;
+  }
+
+  .formulario {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+.campo {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+
+  .campo .column-rigth div{
+    float: right;
+    width: 90%;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 19px;
+    color: #000000;
+} 
+
+.campo .column-rigth div input{
+box-sizing: border-box;
+width: 233px;
+height: 25px;
+left: 27px;
+top: 76px;
+background: #DDE8DE;
+border: 1px solid #000000;
+}
+
+.campo .column-left div{
+    float: left;
+    width: 100%;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 19px;
+color: #000000;
+}
+
+.campo .column-left div input{
+    box-sizing: border-box;
+    width: 233px;
+    height: 25px;
+    left: 27px;
+    top: 76px;
+    background: #DDE8DE;
+    border: 1px solid #000000;
+}
